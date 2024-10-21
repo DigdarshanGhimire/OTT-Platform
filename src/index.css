@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scaling{
+    @apply hover:scale-125 transition duration-300 hover:cursor-pointer;
+}
